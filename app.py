@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 st.title("welcome to gemini chat")
 
-genai.configure(api_key="AIzaSyDpjZ8VqFpIInANBTDXOLg6YhXrndDLIqk")  
+genai.configure(api_key="API_KEY")  
 
 text = st.text_input("enter your question")
 
